@@ -1,0 +1,321 @@
+Input Notebook:  color_thermometers.ipynb
+Output Notebook: color_thermometers.ipynb
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+/home/coder/masters_thesis/venv/lib/python3.12/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+
+2026-03-30 20:00:59,415 - matplotlib - DEBUG - matplotlib data path: /home/coder/masters_thesis/venv/lib/python3.12/site-packages/matplotlib/mpl-data
+
+2026-03-30 20:00:59,423 - matplotlib - DEBUG - CONFIGDIR=/home/coder/.config/matplotlib
+
+2026-03-30 20:00:59,436 - matplotlib - DEBUG - interactive is False
+
+2026-03-30 20:00:59,436 - matplotlib - DEBUG - platform is linux
+
+2026-03-30 20:00:59,522 - matplotlib - DEBUG - CACHEDIR=/home/coder/.cache/matplotlib
+
+2026-03-30 20:00:59,526 - matplotlib.font_manager - DEBUG - Using fontManager instance from /home/coder/.cache/matplotlib/fontlist-v390.json
+
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+
+Accuracy over 100 epochs:
+
+
+#1 Accuracy: 85.65% (2943.52s)
+
+#2 Accuracy: 85.74% (2495.79s)
+
+#3 Accuracy: 88.04% (2376.15s)
+
+#4 Accuracy: 88.86% (2308.53s)
+
+#5 Accuracy: 90.73% (2256.07s)
+
+#6 Accuracy: 90.73% (2218.06s)
+
+#7 Accuracy: 90.97% (2190.12s)
+
+#8 Accuracy: 91.82% (2171.89s)
+
+#9 Accuracy: 92.31% (2155.04s)
+
+#10 Accuracy: 92.08% (2141.73s)
+
+#11 Accuracy: 92.20% (2128.37s)
+
+#12 Accuracy: 92.75% (2106.98s)
+
+#13 Accuracy: 92.28% (2096.54s)
+
+#14 Accuracy: 92.58% (2083.43s)
+
+#15 Accuracy: 92.90% (2084.15s)
+
+#16 Accuracy: 92.87% (2069.33s)
+
+#17 Accuracy: 92.98% (2064.88s)
+
+#18 Accuracy: 92.75% (1976.47s)
+
+#19 Accuracy: 92.87% (1968.25s)
+
+#20 Accuracy: 93.07% (1966.23s)
+
+#21 Accuracy: 93.07% (1965.70s)
+
+#22 Accuracy: 93.36% (1953.62s)
+
+#23 Accuracy: 93.25% (1953.35s)
+
+#24 Accuracy: 93.39% (1953.61s)
+
+#25 Accuracy: 93.42% (1946.64s)
+
+#26 Accuracy: 93.77% (1937.77s)
+
+#27 Accuracy: 93.04% (1938.69s)
+
+#28 Accuracy: 93.16% (1934.69s)
+
+#29 Accuracy: 93.31% (1942.01s)
+
+#30 Accuracy: 93.63% (1936.45s)
+
+#31 Accuracy: 93.22% (1931.61s)
+
+#32 Accuracy: 93.36% (1929.20s)
+
+#33 Accuracy: 93.95% (1927.20s)
+
+#34 Accuracy: 93.48% (1923.74s)
+
+#35 Accuracy: 93.54% (1923.54s)
+
+#36 Accuracy: 92.81% (1917.00s)
+
+#37 Accuracy: 94.24% (1921.21s)
+
+#38 Accuracy: 93.60% (1911.30s)
+
+#39 Accuracy: 93.77% (1913.29s)
+
+#40 Accuracy: 94.04% (1912.25s)
+
+#41 Accuracy: 93.63% (1904.98s)
+
+#42 Accuracy: 93.19% (1906.55s)
+
+#43 Accuracy: 93.13% (1903.12s)
+
+#44 Accuracy: 93.28% (1905.38s)
+
+#45 Accuracy: 93.34% (1906.88s)
+
+#46 Accuracy: 94.01% (1905.73s)
+
+#47 Accuracy: 94.10% (1901.86s)
+
+#48 Accuracy: 93.63% (1899.37s)
+
+#49 Accuracy: 93.80% (1899.78s)
+
+#50 Accuracy: 93.19% (1899.48s)
+
+#51 Accuracy: 93.92% (1900.31s)
+
+#52 Accuracy: 94.12% (1896.54s)
+
+#53 Accuracy: 93.77% (1891.59s)
+
+#54 Accuracy: 93.16% (1892.91s)
+
+#55 Accuracy: 93.95% (1894.25s)
+
+#56 Accuracy: 93.80% (1891.32s)
+
+#57 Accuracy: 93.92% (1890.60s)
+
+#58 Accuracy: 94.21% (1896.52s)
+
+#59 Accuracy: 93.39% (1894.88s)
+
+#60 Accuracy: 94.04% (1896.88s)
+
+#61 Accuracy: 93.95% (1898.61s)
+
+#62 Accuracy: 93.86% (1888.10s)
+
+#63 Accuracy: 93.63% (1890.20s)
+
+#64 Accuracy: 94.21% (1889.79s)
+
+#65 Accuracy: 93.72% (1889.26s)
+
+#66 Accuracy: 94.04% (1887.38s)
+
+#67 Accuracy: 93.57% (1883.93s)
+
+#68 Accuracy: 94.12% (1895.94s)
+
+#69 Accuracy: 94.15% (1897.95s)
+
+#70 Accuracy: 94.27% (1899.28s)
+
+#71 Accuracy: 93.80% (1896.03s)
+
+#72 Accuracy: 94.27% (1893.59s)
+
+#73 Accuracy: 93.98% (1894.53s)
+
+#74 Accuracy: 93.57% (1892.90s)
+
+#75 Accuracy: 93.51% (1892.04s)
+
+#76 Accuracy: 93.89% (1889.97s)
+
+#77 Accuracy: 94.12% (1890.07s)
+
+#78 Accuracy: 94.18% (1891.06s)
+
+#79 Accuracy: 93.63% (1958.30s)
+
+#80 Accuracy: 93.74% (1997.50s)
+
+#81 Accuracy: 93.95% (1914.96s)
+
+#82 Accuracy: 94.27% (1876.46s)
+
+#83 Accuracy: 93.83% (1877.66s)
+
+#84 Accuracy: 93.95% (1875.08s)
+
+#85 Accuracy: 94.04% (1878.15s)
+
+#86 Accuracy: 93.86% (1874.54s)
+
+#87 Accuracy: 94.07% (1873.33s)
+
+#88 Accuracy: 93.89% (1872.58s)
+
+#89 Accuracy: 93.77% (1873.08s)
+
+#90 Accuracy: 94.36% (1872.34s)
+
+#91 Accuracy: 94.24% (1872.41s)
+
+#92 Accuracy: 94.12% (1873.10s)
+
+#93 Accuracy: 94.33% (1875.66s)
+
+#94 Accuracy: 94.50% (1874.34s)
+
+#95 Accuracy: 94.68% (1879.49s)
+
+#96 Accuracy: 94.68% (1877.12s)
+
+#97 Accuracy: 94.27% (1873.76s)
+
+#98 Accuracy: 94.39% (1875.28s)
+
+#99 Accuracy: 94.12% (1874.94s)
+
+#100 Accuracy: 93.77% (1876.03s)
+
+Ending Cell 10-----------------------------------------
+Executing Cell 11--------------------------------------
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+Model saved.
+
+Ending Cell 12-----------------------------------------
+Executing Cell 13--------------------------------------
+Ending Cell 13-----------------------------------------
+Executing Cell 14--------------------------------------
+2026-04-02 11:09:06,081 - matplotlib.pyplot - DEBUG - Loaded backend module://matplotlib_inline.backend_inline version unknown.
+
+2026-04-02 11:09:06,084 - matplotlib.pyplot - DEBUG - Loaded backend module://matplotlib_inline.backend_inline version unknown.
+
+<Figure size 640x480 with 1 Axes>
+0.990700320438397
+Ending Cell 14-----------------------------------------
+Executing Cell 15--------------------------------------
+<Figure size 640x480 with 1 Axes>
+Class 0: median=60.0, mean=57.9, std=8.5
+
+<Figure size 640x480 with 1 Axes>
+Class 1: median=54.0, mean=50.9, std=15.1
+
+<Figure size 640x480 with 1 Axes>
+Class 2: median=57.0, mean=54.1, std=12.1
+
+<Figure size 640x480 with 1 Axes>
+Class 3: median=61.0, mean=58.7, std=7.5
+
+<Figure size 640x480 with 1 Axes>
+Class 4: median=58.0, mean=55.9, std=10.3
+
+<Figure size 640x480 with 1 Axes>
+Class 5: median=60.0, mean=57.7, std=8.5
+
+<Figure size 640x480 with 1 Axes>
+Class 6: median=56.0, mean=53.7, std=12.2
+
+<Figure size 640x480 with 1 Axes>
+Class 7: median=35.0, mean=35.9, std=22.1
+
+Ending Cell 15-----------------------------------------
+Executing Cell 16--------------------------------------
+Ending Cell 16-----------------------------------------
+Traceback (most recent call last):
+  File "/home/coder/masters_thesis/venv/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+             ^^^^^^^^^^^
+  File "/home/coder/masters_thesis/venv/lib/python3.12/site-packages/click/core.py", line 1462, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/masters_thesis/venv/lib/python3.12/site-packages/click/core.py", line 1383, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/coder/masters_thesis/venv/lib/python3.12/site-packages/click/core.py", line 1246, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/masters_thesis/venv/lib/python3.12/site-packages/click/core.py", line 814, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/masters_thesis/venv/lib/python3.12/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/masters_thesis/venv/lib/python3.12/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/coder/masters_thesis/venv/lib/python3.12/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/coder/masters_thesis/venv/lib/python3.12/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [16]":
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[16], line 1
+----> 1 _, _ = plot_confusion_matrix_from_scores(config, "BloodMNIST_Color_Thermometers", Y_test) 
+
+TypeError: plot_confusion_matrix_from_scores() missing 5 required positional arguments: 'patch_size', 'max_lit', 'weighted', 'Y_true', and 'spesialist_name'
+

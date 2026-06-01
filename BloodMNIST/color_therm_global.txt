@@ -1,0 +1,256 @@
+Input Notebook:  color_therm_global.ipynb
+Output Notebook: color_therm_global.ipynb
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+/home/coder/masters_thesis/venv/lib/python3.12/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+
+2026-04-08 22:59:28,817 - matplotlib - DEBUG - matplotlib data path: /home/coder/masters_thesis/venv/lib/python3.12/site-packages/matplotlib/mpl-data
+
+2026-04-08 22:59:28,823 - matplotlib - DEBUG - CONFIGDIR=/home/coder/.config/matplotlib
+
+2026-04-08 22:59:28,836 - matplotlib - DEBUG - interactive is False
+
+2026-04-08 22:59:28,837 - matplotlib - DEBUG - platform is linux
+
+2026-04-08 22:59:28,890 - matplotlib - DEBUG - CACHEDIR=/home/coder/.cache/matplotlib
+
+2026-04-08 22:59:28,892 - matplotlib.font_manager - DEBUG - Using fontManager instance from /home/coder/.cache/matplotlib/fontlist-v390.json
+
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Ending Cell 10-----------------------------------------
+Executing Cell 11--------------------------------------
+Averaging over 222 correctly predicted samples of class 0
+
+  processed 100/222
+
+  processed 200/222
+
+2026-04-09 01:09:45,943 - matplotlib.pyplot - DEBUG - Loaded backend module://matplotlib_inline.backend_inline version unknown.
+
+2026-04-09 01:09:45,948 - matplotlib.pyplot - DEBUG - Loaded backend module://matplotlib_inline.backend_inline version unknown.
+
+2026-04-09 01:09:46,152 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726cc40e7050>
+
+<Figure size 1000x500 with 3 Axes>
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+2026-04-09 01:09:46,650 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c85764c50>
+
+Saved to saved_heatmaps/color_encoding/blood_color_encoding_gh_c0.png
+
+<Figure size 1000x500 with 3 Axes>
+pos shape: (28, 28), min: -16543.82, max: 10258.92
+neg shape: (28, 28), min: -6557.34, max: 13793.58
+saved_heatmaps/color_encoding/blood_color_encoding_gh_c0.png
+
+Ending Cell 12-----------------------------------------
+Executing Cell 13--------------------------------------
+Ending Cell 13-----------------------------------------
+Executing Cell 14--------------------------------------
+Averaging over 616 correctly predicted samples of class 1
+
+  processed 100/616
+
+  processed 200/616
+
+  processed 300/616
+
+  processed 400/616
+
+  processed 500/616
+
+  processed 600/616
+
+2026-04-09 12:37:18,764 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726cc40e4e30>
+
+<Figure size 1000x500 with 3 Axes>
+Ending Cell 14-----------------------------------------
+Executing Cell 15--------------------------------------
+2026-04-09 12:37:19,134 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c8547aea0>
+
+Saved to saved_heatmaps/color_encoding/blood_color_encoding_gh_c1.png
+
+<Figure size 1000x500 with 3 Axes>
+pos shape: (28, 28), min: -2488.77, max: 9476.93
+neg shape: (28, 28), min: -2989.42, max: 3973.35
+saved_heatmaps/color_encoding/blood_color_encoding_gh_c1.png
+
+Ending Cell 15-----------------------------------------
+Executing Cell 16--------------------------------------
+Ending Cell 16-----------------------------------------
+Executing Cell 17--------------------------------------
+Averaging over 293 correctly predicted samples of class 2
+
+  processed 100/293
+
+  processed 200/293
+
+2026-04-09 16:02:13,434 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c854f6240>
+
+<Figure size 1000x500 with 3 Axes>
+Ending Cell 17-----------------------------------------
+Executing Cell 18--------------------------------------
+2026-04-09 16:02:13,812 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c85432090>
+
+Saved to saved_heatmaps/color_encoding/blood_color_encoding_gh_c2.png
+
+<Figure size 1000x500 with 3 Axes>
+pos shape: (28, 28), min: -37032.73, max: 13389.40
+neg shape: (28, 28), min: -9177.90, max: 9945.04
+saved_heatmaps/color_encoding/blood_color_encoding_gh_c2.png
+
+Ending Cell 18-----------------------------------------
+Executing Cell 19--------------------------------------
+Ending Cell 19-----------------------------------------
+Executing Cell 20--------------------------------------
+Averaging over 477 correctly predicted samples of class 3
+
+  processed 100/477
+
+  processed 200/477
+
+  processed 300/477
+
+  processed 400/477
+
+2026-04-09 21:56:26,396 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c85202840>
+
+<Figure size 1000x500 with 3 Axes>
+Ending Cell 20-----------------------------------------
+Executing Cell 21--------------------------------------
+2026-04-09 21:56:26,925 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c851d4950>
+
+Saved to saved_heatmaps/color_encoding/blood_color_encoding_gh_c3.png
+
+<Figure size 1000x500 with 3 Axes>
+pos shape: (28, 28), min: -15964.12, max: 15983.01
+neg shape: (28, 28), min: 306.82, max: 24918.80
+saved_heatmaps/color_encoding/blood_color_encoding_gh_c3.png
+
+Ending Cell 21-----------------------------------------
+Executing Cell 22--------------------------------------
+Ending Cell 22-----------------------------------------
+Executing Cell 23--------------------------------------
+Averaging over 234 correctly predicted samples of class 4
+
+  processed 100/234
+
+  processed 200/234
+
+2026-04-10 00:08:22,737 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c851098b0>
+
+<Figure size 1000x500 with 3 Axes>
+Ending Cell 23-----------------------------------------
+Executing Cell 24--------------------------------------
+2026-04-10 00:08:23,079 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c8544f680>
+
+Saved to saved_heatmaps/color_encoding/blood_color_encoding_gh_c4.png
+
+<Figure size 1000x500 with 3 Axes>
+pos shape: (28, 28), min: -16944.65, max: 11386.36
+neg shape: (28, 28), min: -12317.68, max: 10499.59
+saved_heatmaps/color_encoding/blood_color_encoding_gh_c4.png
+
+Ending Cell 24-----------------------------------------
+Executing Cell 25--------------------------------------
+Ending Cell 25-----------------------------------------
+Executing Cell 26--------------------------------------
+Averaging over 253 correctly predicted samples of class 5
+
+  processed 100/253
+
+  processed 200/253
+
+2026-04-10 03:25:45,993 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c8554cdd0>
+
+<Figure size 1000x500 with 3 Axes>
+Ending Cell 26-----------------------------------------
+Executing Cell 27--------------------------------------
+2026-04-10 03:25:46,342 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c8567ab40>
+
+Saved to saved_heatmaps/color_encoding/blood_color_encoding_gh_c5.png
+
+<Figure size 1000x500 with 3 Axes>
+pos shape: (28, 28), min: -6454.19, max: 15655.23
+neg shape: (28, 28), min: -4452.46, max: 14174.60
+saved_heatmaps/color_encoding/blood_color_encoding_gh_c5.png
+
+Ending Cell 27-----------------------------------------
+Executing Cell 28--------------------------------------
+Ending Cell 28-----------------------------------------
+Executing Cell 29--------------------------------------
+Averaging over 644 correctly predicted samples of class 6
+
+  processed 100/644
+
+  processed 200/644
+
+  processed 300/644
+
+  processed 400/644
+
+  processed 500/644
+
+  processed 600/644
+
+2026-04-10 09:32:07,503 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c857b8b00>
+
+<Figure size 1000x500 with 3 Axes>
+Ending Cell 29-----------------------------------------
+Executing Cell 30--------------------------------------
+2026-04-10 09:32:08,022 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c85782ea0>
+
+Saved to saved_heatmaps/color_encoding/blood_color_encoding_gh_c6.png
+
+<Figure size 1000x500 with 3 Axes>
+pos shape: (28, 28), min: -3475.32, max: 6093.42
+neg shape: (28, 28), min: -2650.45, max: 6682.47
+saved_heatmaps/color_encoding/blood_color_encoding_gh_c6.png
+
+Ending Cell 30-----------------------------------------
+Executing Cell 31--------------------------------------
+Ending Cell 31-----------------------------------------
+Executing Cell 32--------------------------------------
+Averaging over 469 correctly predicted samples of class 7
+
+  processed 100/469
+
+  processed 200/469
+
+  processed 300/469
+
+  processed 400/469
+
+2026-04-10 20:27:21,920 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726c84e774a0>
+
+<Figure size 1000x500 with 3 Axes>
+Ending Cell 32-----------------------------------------
+Executing Cell 33--------------------------------------
+2026-04-10 20:27:22,275 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x726ca6abf3e0>
+
+Saved to saved_heatmaps/color_encoding/blood_color_encoding_gh_c7.png
+
+<Figure size 1000x500 with 3 Axes>
+pos shape: (28, 28), min: -955.41, max: 8033.28
+neg shape: (28, 28), min: -933.59, max: 1568.80
+saved_heatmaps/color_encoding/blood_color_encoding_gh_c7.png
+
+Ending Cell 33-----------------------------------------

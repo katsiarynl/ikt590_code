@@ -1,0 +1,407 @@
+Input Notebook:  canny_edge.ipynb
+Output Notebook: canny_edge.ipynb
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+/home/coder/masters_thesis/venv/lib/python3.12/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+
+2026-03-21 20:39:00,688 - matplotlib - DEBUG - matplotlib data path: /home/coder/masters_thesis/venv/lib/python3.12/site-packages/matplotlib/mpl-data
+
+2026-03-21 20:39:00,693 - matplotlib - DEBUG - CONFIGDIR=/home/coder/.config/matplotlib
+
+2026-03-21 20:39:00,706 - matplotlib - DEBUG - interactive is False
+
+2026-03-21 20:39:00,707 - matplotlib - DEBUG - platform is linux
+
+2026-03-21 20:39:00,759 - matplotlib - DEBUG - CACHEDIR=/home/coder/.cache/matplotlib
+
+2026-03-21 20:39:00,760 - matplotlib.font_manager - DEBUG - Using fontManager instance from /home/coder/.cache/matplotlib/fontlist-v390.json
+
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+[I 2026-03-21 20:39:01,179] A new study created in memory with name: no-name-a977c0a6-5709-426b-8c8c-338621ec2b95
+
+[I 2026-03-21 20:49:54,298] Trial 0 finished with value: 0.5963302752293578 and parameters: {'s': 6.0, 'T': 10000, 'patch_size': 3, 'max_included_literals': 64}. Best is trial 0 with value: 0.5963302752293578.
+
+[I 2026-03-21 21:01:24,528] Trial 1 finished with value: 0.514018691588785 and parameters: {'s': 1.0, 'T': 10000, 'patch_size': 3, 'max_included_literals': 64}. Best is trial 0 with value: 0.5963302752293578.
+
+[I 2026-03-21 21:13:18,022] Trial 2 finished with value: 0.44554455445544555 and parameters: {'s': 10.0, 'T': 2000, 'patch_size': 9, 'max_included_literals': 128}. Best is trial 0 with value: 0.5963302752293578.
+
+[I 2026-03-21 21:24:15,166] Trial 3 finished with value: 0.6372549019607843 and parameters: {'s': 10.0, 'T': 2500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.6372549019607843.
+
+[I 2026-03-21 21:34:23,116] Trial 4 finished with value: 0.594059405940594 and parameters: {'s': 2.0, 'T': 5500, 'patch_size': 5, 'max_included_literals': 128}. Best is trial 3 with value: 0.6372549019607843.
+
+[I 2026-03-21 21:45:37,412] Trial 5 finished with value: 0.6198347107438017 and parameters: {'s': 15.0, 'T': 8000, 'patch_size': 3, 'max_included_literals': 512}. Best is trial 3 with value: 0.6372549019607843.
+
+[I 2026-03-21 21:56:20,619] Trial 6 finished with value: 0.5288461538461539 and parameters: {'s': 6.0, 'T': 3500, 'patch_size': 3, 'max_included_literals': 512}. Best is trial 3 with value: 0.6372549019607843.
+
+[I 2026-03-21 22:07:13,184] Trial 7 finished with value: 0.6 and parameters: {'s': 12.0, 'T': 2500, 'patch_size': 5, 'max_included_literals': 32}. Best is trial 3 with value: 0.6372549019607843.
+
+[I 2026-03-21 22:18:36,891] Trial 8 finished with value: 0.5405405405405406 and parameters: {'s': 13.0, 'T': 6500, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 3 with value: 0.6372549019607843.
+
+[I 2026-03-21 22:29:57,885] Trial 9 finished with value: 0.594059405940594 and parameters: {'s': 2.0, 'T': 7500, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 3 with value: 0.6372549019607843.
+
+[I 2026-03-21 22:40:30,922] Trial 10 finished with value: 0.42105263157894735 and parameters: {'s': 8.0, 'T': 1000, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.6372549019607843.
+
+[I 2026-03-21 22:51:45,962] Trial 11 finished with value: 0.6542056074766355 and parameters: {'s': 15.0, 'T': 8000, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-21 23:02:55,066] Trial 12 finished with value: 0.5339805825242718 and parameters: {'s': 15.0, 'T': 4000, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-21 23:14:05,439] Trial 13 finished with value: 0.5825242718446602 and parameters: {'s': 11.0, 'T': 4500, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-21 23:25:29,312] Trial 14 finished with value: 0.5769230769230769 and parameters: {'s': 9.0, 'T': 8500, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-21 23:37:17,110] Trial 15 finished with value: 0.5769230769230769 and parameters: {'s': 13.0, 'T': 6000, 'patch_size': 9, 'max_included_literals': 128}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-21 23:48:31,378] Trial 16 finished with value: 0.5555555555555556 and parameters: {'s': 7.0, 'T': 1000, 'patch_size': 7, 'max_included_literals': 64}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-21 23:59:27,446] Trial 17 finished with value: 0.45454545454545453 and parameters: {'s': 4.0, 'T': 5000, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 00:10:48,195] Trial 18 finished with value: 0.5660377358490566 and parameters: {'s': 13.0, 'T': 7000, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 00:23:21,109] Trial 19 finished with value: 0.5392156862745098 and parameters: {'s': 15.0, 'T': 9000, 'patch_size': 9, 'max_included_literals': 128}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 00:34:04,346] Trial 20 finished with value: 0.5769230769230769 and parameters: {'s': 10.0, 'T': 3000, 'patch_size': 5, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 00:45:33,166] Trial 21 finished with value: 0.49019607843137253 and parameters: {'s': 15.0, 'T': 8000, 'patch_size': 3, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 00:57:34,108] Trial 22 finished with value: 0.6147540983606558 and parameters: {'s': 14.0, 'T': 8500, 'patch_size': 3, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 01:08:38,487] Trial 23 finished with value: 0.55 and parameters: {'s': 12.0, 'T': 7000, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 01:19:52,348] Trial 24 finished with value: 0.45918367346938777 and parameters: {'s': 14.0, 'T': 5500, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 01:31:14,741] Trial 25 finished with value: 0.6194690265486725 and parameters: {'s': 11.0, 'T': 9000, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 01:42:23,671] Trial 26 finished with value: 0.5392156862745098 and parameters: {'s': 14.0, 'T': 7500, 'patch_size': 9, 'max_included_literals': 64}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 01:53:44,446] Trial 27 finished with value: 0.5392156862745098 and parameters: {'s': 12.0, 'T': 6500, 'patch_size': 5, 'max_included_literals': 32}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 02:04:12,212] Trial 28 finished with value: 0.5612244897959183 and parameters: {'s': 4.0, 'T': 2000, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 02:16:39,417] Trial 29 finished with value: 0.4954954954954955 and parameters: {'s': 9.0, 'T': 10000, 'patch_size': 3, 'max_included_literals': 64}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 02:27:40,653] Trial 30 finished with value: 0.5392156862745098 and parameters: {'s': 6.0, 'T': 9000, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 02:39:16,629] Trial 31 finished with value: 0.5652173913043478 and parameters: {'s': 11.0, 'T': 9500, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 02:50:23,350] Trial 32 finished with value: 0.603448275862069 and parameters: {'s': 10.0, 'T': 8000, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 03:02:17,689] Trial 33 finished with value: 0.5405405405405406 and parameters: {'s': 11.0, 'T': 9500, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 03:13:23,380] Trial 34 finished with value: 0.5803571428571429 and parameters: {'s': 8.0, 'T': 8500, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 03:23:11,107] Trial 35 finished with value: 0.47619047619047616 and parameters: {'s': 14.0, 'T': 7500, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 03:34:32,260] Trial 36 finished with value: 0.5050505050505051 and parameters: {'s': 9.0, 'T': 9500, 'patch_size': 9, 'max_included_literals': 64}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 03:46:45,386] Trial 37 finished with value: 0.5445544554455446 and parameters: {'s': 12.0, 'T': 6000, 'patch_size': 5, 'max_included_literals': 512}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 03:57:08,322] Trial 38 finished with value: 0.5603448275862069 and parameters: {'s': 13.0, 'T': 10000, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 11 with value: 0.6542056074766355.
+
+[I 2026-03-22 04:07:00,824] Trial 39 finished with value: 0.6796116504854369 and parameters: {'s': 15.0, 'T': 3500, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 39 with value: 0.6796116504854369.
+
+[I 2026-03-22 04:17:58,587] Trial 40 finished with value: 0.6 and parameters: {'s': 15.0, 'T': 3000, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 39 with value: 0.6796116504854369.
+
+[I 2026-03-22 04:29:16,319] Trial 41 finished with value: 0.5882352941176471 and parameters: {'s': 15.0, 'T': 2000, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 39 with value: 0.6796116504854369.
+
+[I 2026-03-22 04:39:55,264] Trial 42 finished with value: 0.5102040816326531 and parameters: {'s': 14.0, 'T': 4000, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 39 with value: 0.6796116504854369.
+
+[I 2026-03-22 04:51:03,697] Trial 43 finished with value: 0.6 and parameters: {'s': 13.0, 'T': 1500, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 39 with value: 0.6796116504854369.
+
+[I 2026-03-22 05:05:18,102] Trial 44 finished with value: 0.5102040816326531 and parameters: {'s': 11.0, 'T': 3000, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 39 with value: 0.6796116504854369.
+
+[I 2026-03-22 05:24:20,369] Trial 45 finished with value: 0.55 and parameters: {'s': 15.0, 'T': 4000, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 39 with value: 0.6796116504854369.
+
+[I 2026-03-22 05:42:22,811] Trial 46 finished with value: 0.46875 and parameters: {'s': 13.0, 'T': 3500, 'patch_size': 3, 'max_included_literals': 512}. Best is trial 39 with value: 0.6796116504854369.
+
+[I 2026-03-22 06:01:17,423] Trial 47 finished with value: 0.5825242718446602 and parameters: {'s': 14.0, 'T': 2500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 39 with value: 0.6796116504854369.
+
+[I 2026-03-22 06:19:25,718] Trial 48 finished with value: 0.5882352941176471 and parameters: {'s': 7.0, 'T': 5000, 'patch_size': 5, 'max_included_literals': 512}. Best is trial 39 with value: 0.6796116504854369.
+
+[I 2026-03-22 06:36:11,873] Trial 49 finished with value: 0.49504950495049505 and parameters: {'s': 10.0, 'T': 9000, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 39 with value: 0.6796116504854369.
+
+Best fbeta: 0.6796116504854369
+Best hyperparameters: {'s': 15.0, 'T': 3500, 'patch_size': 7, 'max_included_literals': 32}
+
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Best F1 score macro accuracy: 0.6796116504854369
+Best hyperparameters: {'s': 15.0, 'T': 3500, 'patch_size': 7, 'max_included_literals': 32}
+Best Optuna results saved to hyperparameters/canny_edge.json
+
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+
+Accuracy over 100 epochs:
+
+
+#1 Accuracy: 40.38% (12.48s)
+
+#2 Accuracy: 78.21% (12.86s)
+
+#3 Accuracy: 71.79% (12.77s)
+
+#4 Accuracy: 76.28% (12.49s)
+
+#5 Accuracy: 74.36% (12.58s)
+
+#6 Accuracy: 74.36% (11.81s)
+
+#7 Accuracy: 75.00% (11.59s)
+
+#8 Accuracy: 80.77% (11.24s)
+
+#9 Accuracy: 76.92% (11.34s)
+
+#10 Accuracy: 78.21% (10.78s)
+
+#11 Accuracy: 73.08% (10.56s)
+
+#12 Accuracy: 76.28% (10.37s)
+
+#13 Accuracy: 78.21% (10.20s)
+
+#14 Accuracy: 77.56% (10.06s)
+
+#15 Accuracy: 77.56% (9.92s)
+
+#16 Accuracy: 76.92% (9.57s)
+
+#17 Accuracy: 76.28% (9.37s)
+
+#18 Accuracy: 76.92% (9.24s)
+
+#19 Accuracy: 74.36% (9.12s)
+
+#20 Accuracy: 80.13% (9.04s)
+
+#21 Accuracy: 77.56% (9.04s)
+
+#22 Accuracy: 78.85% (8.92s)
+
+#23 Accuracy: 78.85% (8.83s)
+
+#24 Accuracy: 81.41% (8.79s)
+
+#25 Accuracy: 80.77% (8.74s)
+
+#26 Accuracy: 83.33% (8.66s)
+
+#27 Accuracy: 78.85% (8.60s)
+
+#28 Accuracy: 80.77% (8.57s)
+
+#29 Accuracy: 81.41% (8.53s)
+
+#30 Accuracy: 79.49% (8.49s)
+
+#31 Accuracy: 78.85% (8.44s)
+
+#32 Accuracy: 81.41% (8.43s)
+
+#33 Accuracy: 80.13% (8.41s)
+
+#34 Accuracy: 81.41% (8.35s)
+
+#35 Accuracy: 81.41% (8.34s)
+
+#36 Accuracy: 80.13% (8.32s)
+
+#37 Accuracy: 81.41% (8.28s)
+
+#38 Accuracy: 80.77% (8.25s)
+
+#39 Accuracy: 83.33% (8.28s)
+
+#40 Accuracy: 82.05% (8.27s)
+
+#41 Accuracy: 82.05% (8.26s)
+
+#42 Accuracy: 82.05% (8.23s)
+
+#43 Accuracy: 81.41% (8.23s)
+
+#44 Accuracy: 82.05% (8.19s)
+
+#45 Accuracy: 82.05% (8.20s)
+
+#46 Accuracy: 83.33% (8.14s)
+
+#47 Accuracy: 83.33% (8.14s)
+
+#48 Accuracy: 80.13% (8.16s)
+
+#49 Accuracy: 80.77% (8.16s)
+
+#50 Accuracy: 82.69% (8.11s)
+
+#51 Accuracy: 81.41% (8.13s)
+
+#52 Accuracy: 77.56% (8.10s)
+
+#53 Accuracy: 80.77% (8.11s)
+
+#54 Accuracy: 81.41% (8.18s)
+
+#55 Accuracy: 82.05% (8.10s)
+
+#56 Accuracy: 83.33% (8.06s)
+
+#57 Accuracy: 81.41% (8.06s)
+
+#58 Accuracy: 82.05% (8.12s)
+
+#59 Accuracy: 81.41% (8.09s)
+
+#60 Accuracy: 82.69% (8.08s)
+
+#61 Accuracy: 82.69% (8.40s)
+
+#62 Accuracy: 82.69% (8.03s)
+
+#63 Accuracy: 83.33% (8.03s)
+
+#64 Accuracy: 80.77% (8.08s)
+
+#65 Accuracy: 82.05% (8.02s)
+
+#66 Accuracy: 83.33% (8.03s)
+
+#67 Accuracy: 83.97% (8.05s)
+
+#68 Accuracy: 82.05% (8.15s)
+
+#69 Accuracy: 83.33% (8.07s)
+
+#70 Accuracy: 82.05% (7.99s)
+
+#71 Accuracy: 84.62% (7.97s)
+
+#72 Accuracy: 83.97% (8.04s)
+
+#73 Accuracy: 80.77% (8.03s)
+
+#74 Accuracy: 82.69% (8.07s)
+
+#75 Accuracy: 81.41% (8.01s)
+
+#76 Accuracy: 82.69% (7.98s)
+
+#77 Accuracy: 80.77% (8.03s)
+
+#78 Accuracy: 83.97% (8.01s)
+
+#79 Accuracy: 82.05% (8.05s)
+
+#80 Accuracy: 83.97% (8.10s)
+
+#81 Accuracy: 83.97% (7.98s)
+
+#82 Accuracy: 82.69% (8.04s)
+
+#83 Accuracy: 82.05% (8.01s)
+
+#84 Accuracy: 81.41% (7.97s)
+
+#85 Accuracy: 83.33% (8.14s)
+
+#86 Accuracy: 83.33% (7.96s)
+
+#87 Accuracy: 81.41% (7.93s)
+
+#88 Accuracy: 80.13% (7.93s)
+
+#89 Accuracy: 82.69% (8.04s)
+
+#90 Accuracy: 82.69% (7.99s)
+
+#91 Accuracy: 80.13% (7.97s)
+
+#92 Accuracy: 81.41% (7.96s)
+
+#93 Accuracy: 81.41% (7.97s)
+
+#94 Accuracy: 81.41% (7.91s)
+
+#95 Accuracy: 81.41% (7.91s)
+
+#96 Accuracy: 82.05% (7.96s)
+
+#97 Accuracy: 82.05% (8.30s)
+
+#98 Accuracy: 82.05% (7.95s)
+
+#99 Accuracy: 81.41% (7.95s)
+
+#100 Accuracy: 81.41% (7.96s)
+
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Ending Cell 10-----------------------------------------
+Executing Cell 11--------------------------------------
+Model saved.
+
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+Ending Cell 12-----------------------------------------
+Executing Cell 13--------------------------------------
+2026-03-22 06:53:11,941 - matplotlib.pyplot - DEBUG - Loaded backend module://matplotlib_inline.backend_inline version unknown.
+
+2026-03-22 06:53:11,944 - matplotlib.pyplot - DEBUG - Loaded backend module://matplotlib_inline.backend_inline version unknown.
+
+<Figure size 640x480 with 1 Axes>
+0.8052422723475354
+Ending Cell 13-----------------------------------------
+Executing Cell 14--------------------------------------
+Number of classes: 2
+Class 0 has 182 literals.
+Class 1 has 182 literals.
+
+Ending Cell 14-----------------------------------------
+Executing Cell 15--------------------------------------
+<Figure size 640x480 with 1 Axes>
+Class 0: median=17.0, mean=17.4, std=9.0
+
+<Figure size 640x480 with 1 Axes>
+Class 1: median=17.0, mean=17.5, std=8.9
+
+Ending Cell 15-----------------------------------------
+Executing Cell 16--------------------------------------
+Test Accuracy: 81.41%
+
+2026-03-22 06:53:12,801 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x7c5e57fb7680>
+
+<Figure size 600x500 with 2 Axes>
+Ending Cell 16-----------------------------------------
+Executing Cell 17--------------------------------------
+2026-03-22 06:53:16,407 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x7c5e57ef6c90>
+
+2026-03-22 06:53:16,607 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x7c5e55d88080>
+
+2026-03-22 06:53:16,734 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x7c5e55de44d0>
+
+<Figure size 2200x350 with 8 Axes>
+Ending Cell 17-----------------------------------------
+Executing Cell 18--------------------------------------
+Number of classes: 2
+Class 0 has 182 literals.
+Class 1 has 182 literals.
+
+<Figure size 1400x400 with 1 Axes>
+Ending Cell 18-----------------------------------------
+Executing Cell 19--------------------------------------
+Literal usage entropy: 5.1223
+
+5.122296633498706
+Ending Cell 19-----------------------------------------

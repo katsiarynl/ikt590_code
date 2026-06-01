@@ -1,0 +1,438 @@
+Input Notebook:  adaptive_mean.ipynb
+Output Notebook: adaptive_mean.ipynb
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+
+2026-03-16 20:12:13,232 - matplotlib - DEBUG - matplotlib data path: /home/coder/masters_thesis/.venv/lib/python3.12/site-packages/matplotlib/mpl-data
+
+2026-03-16 20:12:13,237 - matplotlib - DEBUG - CONFIGDIR=/home/coder/.config/matplotlib
+
+2026-03-16 20:12:13,289 - matplotlib - DEBUG - interactive is False
+
+2026-03-16 20:12:13,290 - matplotlib - DEBUG - platform is linux
+
+2026-03-16 20:12:13,385 - matplotlib - DEBUG - CACHEDIR=/home/coder/.cache/matplotlib
+
+2026-03-16 20:12:13,390 - matplotlib.font_manager - DEBUG - Using fontManager instance from /home/coder/.cache/matplotlib/fontlist-v390.json
+
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+7136
+
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+[I 2026-03-16 20:12:14,051] A new study created in memory with name: no-name-7f8bd0da-dd20-4076-ad48-683ed1baa859
+
+[I 2026-03-16 21:04:58,006] Trial 0 finished with value: 0.9420289855072463 and parameters: {'s': 6.0, 'T': 10000, 'patch_size': 3, 'max_included_literals': 64}. Best is trial 0 with value: 0.9420289855072463.
+
+[I 2026-03-16 21:56:06,194] Trial 1 finished with value: 0.9512700881285641 and parameters: {'s': 1.0, 'T': 10000, 'patch_size': 3, 'max_included_literals': 64}. Best is trial 1 with value: 0.9512700881285641.
+
+[I 2026-03-16 22:49:08,550] Trial 2 finished with value: 0.9669079627714581 and parameters: {'s': 10.0, 'T': 2000, 'patch_size': 9, 'max_included_literals': 128}. Best is trial 2 with value: 0.9669079627714581.
+
+/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/tmu/clause_bank/clause_bank_cuda.py:122: UserWarning: The CUDA compiler succeeded, but said the following:
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+  mod = load_cuda_kernel(parameters, "cuda/clause_feedback.cu")
+
+[I 2026-03-16 23:47:02,197] Trial 3 finished with value: 0.9727225939269172 and parameters: {'s': 10.0, 'T': 2500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/tmu/clause_bank/clause_bank_cuda.py:112: UserWarning: The CUDA compiler succeeded, but said the following:
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+  mod = load_cuda_kernel(parameters, "cuda/calculate_clause_outputs_predict.cu")
+
+/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/tmu/clause_bank/clause_bank_cuda.py:118: UserWarning: The CUDA compiler succeeded, but said the following:
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+  mod = load_cuda_kernel(parameters, "cuda/calculate_clause_outputs_update.cu")
+
+/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/tmu/clause_bank/clause_bank_cuda.py:122: UserWarning: The CUDA compiler succeeded, but said the following:
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+  mod = load_cuda_kernel(parameters, "cuda/clause_feedback.cu")
+
+[I 2026-03-17 00:42:29,228] Trial 4 finished with value: 0.9459459459459459 and parameters: {'s': 2.0, 'T': 5500, 'patch_size': 5, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 01:42:52,932] Trial 5 finished with value: 0.8964248159831756 and parameters: {'s': 15.0, 'T': 8000, 'patch_size': 3, 'max_included_literals': 512}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 02:39:44,659] Trial 6 finished with value: 0.9360374414976599 and parameters: {'s': 6.0, 'T': 3500, 'patch_size': 3, 'max_included_literals': 512}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 03:30:49,282] Trial 7 finished with value: 0.9433471933471933 and parameters: {'s': 12.0, 'T': 2500, 'patch_size': 5, 'max_included_literals': 32}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 04:32:53,008] Trial 8 finished with value: 0.9296875 and parameters: {'s': 13.0, 'T': 6500, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 05:28:48,325] Trial 9 finished with value: 0.9654104284976768 and parameters: {'s': 2.0, 'T': 7500, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 06:17:42,126] Trial 10 finished with value: 0.9601449275362319 and parameters: {'s': 8.0, 'T': 1000, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 07:17:04,826] Trial 11 finished with value: 0.9664082687338501 and parameters: {'s': 10.0, 'T': 3500, 'patch_size': 9, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 08:15:38,527] Trial 12 finished with value: 0.9674922600619195 and parameters: {'s': 10.0, 'T': 1000, 'patch_size': 9, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 09:15:57,795] Trial 13 finished with value: 0.9596482152095189 and parameters: {'s': 9.0, 'T': 1000, 'patch_size': 9, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 10:13:53,846] Trial 14 finished with value: 0.9689922480620154 and parameters: {'s': 6.0, 'T': 3500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 11:11:58,011] Trial 15 finished with value: 0.9565667011375388 and parameters: {'s': 5.0, 'T': 4500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 12:10:24,489] Trial 16 finished with value: 0.9549689440993789 and parameters: {'s': 7.0, 'T': 4500, 'patch_size': 7, 'max_included_literals': 64}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 13:06:21,136] Trial 17 finished with value: 0.9564541213063764 and parameters: {'s': 4.0, 'T': 3000, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 14:05:41,315] Trial 18 finished with value: 0.9638242894056848 and parameters: {'s': 12.0, 'T': 4500, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 15:00:08,333] Trial 19 finished with value: 0.9591520165460186 and parameters: {'s': 4.0, 'T': 2000, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 15:57:22,321] Trial 20 finished with value: 0.96849173553719 and parameters: {'s': 8.0, 'T': 5500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 16:57:37,990] Trial 21 finished with value: 0.9705730511099638 and parameters: {'s': 8.0, 'T': 5500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 18:01:05,007] Trial 22 finished with value: 0.9674922600619195 and parameters: {'s': 7.0, 'T': 6500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 19:07:28,659] Trial 23 finished with value: 0.9659090909090909 and parameters: {'s': 11.0, 'T': 3500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 20:07:19,677] Trial 24 finished with value: 0.9674922600619195 and parameters: {'s': 8.0, 'T': 4500, 'patch_size': 5, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 21:05:53,348] Trial 25 finished with value: 0.9617373319544984 and parameters: {'s': 14.0, 'T': 5500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 22:13:28,725] Trial 26 finished with value: 0.9638242894056848 and parameters: {'s': 9.0, 'T': 2000, 'patch_size': 7, 'max_included_literals': 64}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-17 23:20:37,696] Trial 27 finished with value: 0.9664082687338501 and parameters: {'s': 4.0, 'T': 6500, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 00:27:41,330] Trial 28 finished with value: 0.9601449275362319 and parameters: {'s': 6.0, 'T': 4000, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 01:35:02,410] Trial 29 finished with value: 0.9638242894056848 and parameters: {'s': 5.0, 'T': 2500, 'patch_size': 5, 'max_included_literals': 64}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 02:43:04,222] Trial 30 finished with value: 0.9602478058853898 and parameters: {'s': 7.0, 'T': 8500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 03:52:05,445] Trial 31 finished with value: 0.9680741503604532 and parameters: {'s': 8.0, 'T': 5500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 05:00:14,713] Trial 32 finished with value: 0.9642301710730948 and parameters: {'s': 9.0, 'T': 6000, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 06:11:00,536] Trial 33 finished with value: 0.9596482152095189 and parameters: {'s': 11.0, 'T': 7500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 07:17:45,007] Trial 34 finished with value: 0.9633264462809917 and parameters: {'s': 6.0, 'T': 10000, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 08:27:58,360] Trial 35 finished with value: 0.9499225606608157 and parameters: {'s': 8.0, 'T': 5000, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 09:36:58,852] Trial 36 finished with value: 0.964414646725116 and parameters: {'s': 9.0, 'T': 3000, 'patch_size': 9, 'max_included_literals': 64}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 10:42:32,052] Trial 37 finished with value: 0.9523809523809523 and parameters: {'s': 11.0, 'T': 5000, 'patch_size': 5, 'max_included_literals': 512}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 11:44:48,757] Trial 38 finished with value: 0.9164490861618799 and parameters: {'s': 7.0, 'T': 4000, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 12:43:37,134] Trial 39 finished with value: 0.9633264462809917 and parameters: {'s': 10.0, 'T': 6000, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 13:45:16,606] Trial 40 finished with value: 0.9649122807017544 and parameters: {'s': 3.0, 'T': 9000, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 14:44:48,695] Trial 41 finished with value: 0.9627329192546584 and parameters: {'s': 6.0, 'T': 7000, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 15:39:27,250] Trial 42 finished with value: 0.9591520165460186 and parameters: {'s': 8.0, 'T': 5500, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 16:37:32,061] Trial 43 finished with value: 0.9612403100775194 and parameters: {'s': 8.0, 'T': 5000, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 17:30:16,028] Trial 44 finished with value: 0.9633264462809917 and parameters: {'s': 10.0, 'T': 6000, 'patch_size': 7, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 18:30:15,864] Trial 45 finished with value: 0.9237995824634656 and parameters: {'s': 5.0, 'T': 3000, 'patch_size': 3, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 19:40:23,976] Trial 46 finished with value: 0.9591520165460186 and parameters: {'s': 9.0, 'T': 4000, 'patch_size': 9, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 20:49:06,869] Trial 47 finished with value: 0.9617373319544984 and parameters: {'s': 7.0, 'T': 7000, 'patch_size': 7, 'max_included_literals': 512}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 21:56:00,443] Trial 48 finished with value: 0.9591520165460186 and parameters: {'s': 6.0, 'T': 2500, 'patch_size': 5, 'max_included_literals': 128}. Best is trial 3 with value: 0.9727225939269172.
+
+[I 2026-03-18 22:58:22,294] Trial 49 finished with value: 0.964414646725116 and parameters: {'s': 12.0, 'T': 1500, 'patch_size': 7, 'max_included_literals': 32}. Best is trial 3 with value: 0.9727225939269172.
+
+Best fbeta: 0.9727225939269172
+Best hyperparameters: {'s': 10.0, 'T': 2500, 'patch_size': 7, 'max_included_literals': 128}
+
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Best F1 score macro accuracy: 0.9727225939269172
+Best hyperparameters: {'s': 10.0, 'T': 2500, 'patch_size': 7, 'max_included_literals': 128}
+Best Optuna results saved to hyperparameters/adaptive_mean.json
+
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+
+Accuracy over 100 epochs:
+
+
+#1 Accuracy: 88.46% (99.03s)
+
+#2 Accuracy: 91.03% (87.86s)
+
+#3 Accuracy: 88.30% (85.58s)
+
+#4 Accuracy: 84.94% (84.04s)
+
+#5 Accuracy: 87.18% (83.16s)
+
+#6 Accuracy: 87.18% (82.49s)
+
+#7 Accuracy: 87.18% (81.74s)
+
+#8 Accuracy: 87.34% (81.21s)
+
+#9 Accuracy: 88.94% (81.13s)
+
+#10 Accuracy: 87.50% (80.62s)
+
+#11 Accuracy: 87.18% (80.47s)
+
+#12 Accuracy: 88.78% (80.11s)
+
+#13 Accuracy: 88.14% (80.00s)
+
+#14 Accuracy: 88.46% (79.81s)
+
+#15 Accuracy: 86.70% (79.72s)
+
+#16 Accuracy: 87.18% (79.70s)
+
+#17 Accuracy: 88.62% (79.49s)
+
+#18 Accuracy: 87.02% (79.28s)
+
+#19 Accuracy: 89.26% (79.33s)
+
+#20 Accuracy: 87.98% (79.11s)
+
+#21 Accuracy: 87.34% (79.00s)
+
+#22 Accuracy: 87.50% (78.96s)
+
+#23 Accuracy: 86.54% (78.95s)
+
+#24 Accuracy: 87.98% (78.91s)
+
+#25 Accuracy: 87.34% (79.01s)
+
+#26 Accuracy: 88.14% (78.91s)
+
+#27 Accuracy: 86.22% (79.23s)
+
+#28 Accuracy: 88.14% (78.85s)
+
+#29 Accuracy: 87.34% (78.84s)
+
+#30 Accuracy: 86.70% (78.60s)
+
+#31 Accuracy: 88.30% (78.44s)
+
+#32 Accuracy: 87.34% (78.53s)
+
+#33 Accuracy: 87.50% (78.38s)
+
+#34 Accuracy: 87.98% (78.46s)
+
+#35 Accuracy: 87.98% (78.31s)
+
+#36 Accuracy: 87.34% (78.27s)
+
+#37 Accuracy: 87.18% (78.24s)
+
+#38 Accuracy: 88.30% (78.30s)
+
+#39 Accuracy: 87.18% (79.05s)
+
+#40 Accuracy: 87.98% (78.34s)
+
+#41 Accuracy: 87.34% (78.29s)
+
+#42 Accuracy: 87.50% (78.33s)
+
+#43 Accuracy: 87.50% (78.26s)
+
+#44 Accuracy: 87.66% (78.38s)
+
+#45 Accuracy: 88.14% (78.42s)
+
+#46 Accuracy: 86.06% (78.37s)
+
+#47 Accuracy: 87.18% (78.38s)
+
+#48 Accuracy: 86.70% (78.39s)
+
+#49 Accuracy: 86.54% (78.50s)
+
+#50 Accuracy: 87.34% (78.41s)
+
+#51 Accuracy: 88.30% (78.19s)
+
+#52 Accuracy: 87.02% (78.65s)
+
+#53 Accuracy: 86.70% (78.72s)
+
+#54 Accuracy: 87.34% (78.19s)
+
+#55 Accuracy: 87.98% (78.33s)
+
+#56 Accuracy: 87.18% (78.31s)
+
+#57 Accuracy: 87.02% (78.25s)
+
+#58 Accuracy: 87.66% (78.05s)
+
+#59 Accuracy: 87.50% (78.20s)
+
+#60 Accuracy: 86.70% (78.23s)
+
+#61 Accuracy: 87.50% (78.00s)
+
+#62 Accuracy: 87.34% (78.16s)
+
+#63 Accuracy: 86.86% (78.13s)
+
+#64 Accuracy: 86.38% (78.22s)
+
+#65 Accuracy: 86.54% (78.11s)
+
+#66 Accuracy: 87.02% (78.18s)
+
+#67 Accuracy: 86.86% (78.19s)
+
+#68 Accuracy: 87.34% (78.16s)
+
+#69 Accuracy: 86.38% (78.13s)
+
+#70 Accuracy: 87.66% (78.26s)
+
+#71 Accuracy: 86.38% (78.31s)
+
+#72 Accuracy: 86.06% (78.46s)
+
+#73 Accuracy: 86.86% (78.44s)
+
+#74 Accuracy: 87.18% (78.36s)
+
+#75 Accuracy: 86.22% (78.33s)
+
+#76 Accuracy: 85.74% (78.30s)
+
+#77 Accuracy: 86.86% (78.36s)
+
+#78 Accuracy: 87.34% (78.44s)
+
+#79 Accuracy: 87.34% (78.35s)
+
+#80 Accuracy: 87.02% (78.47s)
+
+#81 Accuracy: 86.38% (78.40s)
+
+#82 Accuracy: 86.70% (78.30s)
+
+#83 Accuracy: 87.66% (78.36s)
+
+#84 Accuracy: 86.70% (78.43s)
+
+#85 Accuracy: 86.86% (78.32s)
+
+#86 Accuracy: 87.02% (78.26s)
+
+#87 Accuracy: 86.86% (78.34s)
+
+#88 Accuracy: 86.70% (78.29s)
+
+#89 Accuracy: 86.70% (78.18s)
+
+#90 Accuracy: 86.38% (78.20s)
+
+#91 Accuracy: 86.54% (78.06s)
+
+#92 Accuracy: 86.86% (78.09s)
+
+#93 Accuracy: 87.66% (78.46s)
+
+#94 Accuracy: 87.18% (78.27s)
+
+#95 Accuracy: 86.06% (78.16s)
+
+#96 Accuracy: 87.02% (78.31s)
+
+#97 Accuracy: 86.70% (78.31s)
+
+#98 Accuracy: 87.02% (78.32s)
+
+#99 Accuracy: 87.02% (78.31s)
+
+#100 Accuracy: 87.02% (78.26s)
+
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Ending Cell 10-----------------------------------------
+Executing Cell 11--------------------------------------
+Model saved.
+
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+Ending Cell 12-----------------------------------------
+Executing Cell 13--------------------------------------
+2026-03-19 01:24:41,653 - matplotlib.pyplot - DEBUG - Loaded backend module://matplotlib_inline.backend_inline version unknown.
+
+2026-03-19 01:24:41,656 - matplotlib.pyplot - DEBUG - Loaded backend module://matplotlib_inline.backend_inline version unknown.
+
+<Figure size 640x480 with 1 Axes>
+0.9609193513039667
+Ending Cell 13-----------------------------------------
+Executing Cell 14--------------------------------------
+<Figure size 640x480 with 1 Axes>
+Class 0: median=25.0, mean=28.7, std=17.6
+
+<Figure size 640x480 with 1 Axes>
+Class 1: median=24.0, mean=28.2, std=17.5
+
+Ending Cell 14-----------------------------------------
+Executing Cell 15--------------------------------------
+Test Accuracy: 87.02%
+2026-03-19 01:24:42,211 - matplotlib.colorbar - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x794ba3f129f0>
+
+<Figure size 600x500 with 2 Axes>
+Ending Cell 15-----------------------------------------
+Executing Cell 16--------------------------------------
+Ending Cell 16-----------------------------------------
+Traceback (most recent call last):
+  File "/home/coder/masters_thesis/.venv/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+             ^^^^^^^^^^^
+  File "/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/click/core.py", line 1462, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/click/core.py", line 1383, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/click/core.py", line 1246, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/click/core.py", line 814, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/coder/masters_thesis/.venv/lib/python3.12/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [16]":
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[16], line 1
+----> 1 visualize_pixel_heatmap_test(X_test, X_test_org, tm, image_index=np.random.randint(len(X_test)))
+
+NameError: name 'visualize_pixel_heatmap_test' is not defined
+
